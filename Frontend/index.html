@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Light Scheduler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💡 Light Scheduler</h1>
+    <form id="scheduleForm" class="form">
+      <div class="form-group">
+        <label for="onTime">Turn ON Time</label>
+        <input type="time" id="onTime" required>
+      </div>
+      <div class="form-group">
+        <label for="offTime">Turn OFF Time</label>
+        <input type="time" id="offTime" required>
+      </div>
+      <button type="submit" class="btn">Submit Schedule</button>
+    </form>
+    <div id="status" class="status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
